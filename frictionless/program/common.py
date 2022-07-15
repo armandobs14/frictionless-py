@@ -53,6 +53,21 @@ compression = Option(
     help="Specify compression  [default: inferred]",
 )
 
+output_file_path = Option(
+    default=None,
+    help="Specify the output file path explicitly (e.g. package.yaml)",
+)
+
+er_diagram = Option(
+    default=False,
+    help="Return er diagram",
+)
+
+markdown = Option(
+    default=False,
+    help="Return markdown",
+)
+
 # Dialect
 
 header_rows = Option(
